@@ -6,16 +6,13 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author Snow
- * @create 2020-12-02 14:50
+ * @create 2020-12-02 14:52
  */
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Student {
+public class Teacher {
     private Integer id;
     private String name;
-    private Teacher teacher;
-
-
 }
