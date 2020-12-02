@@ -14,8 +14,10 @@
     </settings>
 
     <typeAliases>
-        <typeAlias type="pojo.User" alias="User"></typeAlias>
+        <typeAlias type="com.snow.pojo.Teacher" alias="Teacher"></typeAlias>
+        <typeAlias type="com.snow.pojo.Student" alias="Student"></typeAlias>
     </typeAliases>
+
 
 
     <environments default="development">
@@ -35,5 +37,9 @@
 
 
 <!--   绑定接口 -->
+    <mappers>
+        <mapper resource="com/snow/dao/TeacherMapper.xml"></mapper>
+        <mapper resource="com/snow/dao/StudentMapper.xml"></mapper>
+    </mappers>
 
 </configuration>
