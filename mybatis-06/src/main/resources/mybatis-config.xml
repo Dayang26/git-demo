@@ -32,14 +32,8 @@
     </environments>
 
 
-<!--    <mappers>-->
-<!--        <mapper resource="com/snow/dao/UserMapper.xml"/>-->
-<!--    </mappers>-->
 
 
 <!--   绑定接口 -->
-    <mappers>
-        <mapper class="dao.UserMapper"></mapper>
-    </mappers>
 
 </configuration>
